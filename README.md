@@ -26,8 +26,10 @@ return {
 Enable a particular linter:
 
 ```lua
-require("linterconfig").stylua.setup()
+require("linterconfig").golangcilint.setup()
 ```
+
+using [available linter] names.
 
 ### Acknowledgements
 
@@ -37,3 +39,5 @@ require("linterconfig").stylua.setup()
 [nvim-lspconfig]:
 https://github.com/neovim/nvim-lspconfig/tree/4ea9083b6d3dff4ddc6da17c51334c3255b7eba5
 [nvimdev/guard.nvim]: https://github.com/nvimdev/guard.nvim
+[available linter]:
+https://github.com/mfussenegger/nvim-lint/blob/master/README.md#available-linters
